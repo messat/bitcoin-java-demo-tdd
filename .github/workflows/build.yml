@@ -12,6 +12,7 @@ jobs:
       - name: JDK 1.11 Install
         uses: actions/setup-java@v4
         with:
+          distribution: temurin 
           java-version: 11
 
       - name: Maven Build
